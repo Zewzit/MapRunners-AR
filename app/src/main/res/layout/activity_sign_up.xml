@@ -7,6 +7,31 @@
     tools:context=".views.SignUpActivity">
 
     <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="60dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="changeViewToLogin"
+        android:text="Login"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I have an account"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
